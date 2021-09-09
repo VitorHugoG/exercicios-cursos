@@ -1,0 +1,6 @@
+algo = input("manda algo ai:")
+print("é um numero:", algo.isnumeric())
+print("é um alpha:", algo.isalpha())
+print("é um alpha numeric:", algo.isalnum())
+print(" está em minuscula:", algo.islower())
+print(" está em maiuscula:", algo.isupper())
