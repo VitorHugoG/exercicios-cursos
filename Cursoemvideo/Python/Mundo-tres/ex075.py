@@ -5,8 +5,8 @@ valor4 = int(input("digite seu quarto valor: "))
 
 tupla = (valor1, valor2, valor3, valor4)
 
-print(tupla.count(9))
-print(tupla.index(3))
+print(f'tiveram {tupla.count(9)} numeros 9 ')
+
 
 
 if tupla.index(3) :
