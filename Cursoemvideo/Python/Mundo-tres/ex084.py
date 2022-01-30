@@ -27,8 +27,6 @@ while True:
     resposta  = input('Deseja continuar [ S / N ] ?')
 
 
-
-
 print(f'você cadastrou {contador_pessoas} pessoas')
 
 for p in pessoas:
