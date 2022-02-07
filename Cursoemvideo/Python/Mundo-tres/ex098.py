@@ -1,6 +1,7 @@
 def contador(inicio, fim, passo):
     print(f'contagem de {inicio} até {fim} de {passo} em {passo}')
 
+    #TODO: verificar o motivo do erro
     if inicio > fim:
       passo = passo * -1
     for i in range(inicio, fim+1 , passo):
