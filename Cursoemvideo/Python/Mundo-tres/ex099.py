@@ -4,7 +4,8 @@ def maior(* valores):
   print('-='*30)
   print("Analisando valores...")
   for i in valores:
-    print(i,end=' ')
+    print(i,end=' ', flush= True)
+    sleep(.3)
   print(f'Foram informados {len(valores)} valores ao todo.')
   print(f'O maior valor informado foi {max(valores)}')
 

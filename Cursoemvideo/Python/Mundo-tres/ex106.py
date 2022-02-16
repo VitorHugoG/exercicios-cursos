@@ -1,3 +1,4 @@
+#TODO deixar mais robusto
 def sistema():
   
   while True:
