@@ -37,10 +37,10 @@ def resumo (preco, aumento, reduzir):
     print('-'*30)
 
     
-    print(f'Preço analisado: {moeda(preco):>}')
-    print(f'Dobro do preço: {moeda(dobro(preco)):>}')
-    print(f'Metade do preço: {moeda(metade(preco)):>}')
-    print(f'{aumento}% de aumento: {moeda(aumentar(preco, aumento)):>} ')
-    print(f'{reduzir}% de redução: {moeda(diminuir(preco, reduzir)):>}')
+    print(f'Preço analisado: {moeda(preco)}')
+    print(f'Dobro do preço:\t {moeda(dobro(preco))}')
+    print(f'Metade do preço: {moeda(metade(preco))}')
+    print(f'{aumento}% de aumento:\t {moeda(aumentar(preco, aumento))} ')
+    print(f'{reduzir}% de redução:\t {moeda(diminuir(preco, reduzir))}')
 
     print('-'*30)

@@ -1,11 +1,10 @@
 
-def leia_dinheiro(str):
-  
+def leia_dinheiro(msg):
   
   while True:
-    num = input(f'{str}')
+    num = str(input(f'{msg}')).replace(",",".")
 
-    if num.isnumeric():
-      return float(num)
+    if num.isalpha() or num.strip() == "":
+       print(f'ERRO "{num}" é um preço inválido !')
     else:
-      print(f'ERRO "{num}" é um preço inválido !')
+       return float(num)
