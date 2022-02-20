@@ -26,4 +26,3 @@ for c in alfabetica:
 print("="*5, " Posição da Chapecoense ", "="*5)
 print(f"A Chapecoense está em {top20.index('Chapecoense') + 1}°")
 
-
