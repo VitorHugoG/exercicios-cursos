@@ -40,6 +40,9 @@ def jogar():
     
         chute_usuario = int(input('digite um numero entre 1 e 100: '))
 
+        '''
+        Define se o chute for entre 1 e 100 incluindo os dois
+        '''
         while True:
             if(chute_usuario < 1 | chute_usuario > 100):
                 print('Você digitou um número inválido !')
