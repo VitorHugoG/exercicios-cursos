@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script>
+    /*
+      Calcular a quantidade convidados no total, contando com os vips.
+    */
+    
+    function pular_linha(){
+
+        document.write('<br>')
+
+    }
+
+    function mostrar(texto=String){
+
+        document.write(texto)
+        pular_linha()
+    }
+
+    var convidados = parseInt(prompt('digite a quantidade de convidados: '))
+    var vips = parseInt(prompt('digite a quantidade de vips: '))
+
+    var total_convidados =  convidados + vips
+
+    mostrar(total_convidados)
+
+</script>

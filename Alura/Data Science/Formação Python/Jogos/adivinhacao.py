@@ -7,6 +7,8 @@ def jogar():
 
     numero_aleatorio = randint(1,100)
 
+    print(numero_aleatorio)
+
     tentativas = 0
 
     pontos = 1000

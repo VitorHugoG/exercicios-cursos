@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+
+<script>
+  function pula_linha(){
+      document.write("<br>")
+  }
+
+  function mostrar(ano_atual, ano_comeco){
+
+      var diferença = ano_atual - ano_comeco
+      var geracoes = diferença/28
+
+      document.write(`Se passaram ${Math.round(geracoes)} gerações desde 1500 até o ano atual`)
+      
+  }
+
+  // param1 = ano atual
+  // param2 = ""descobrimento do Brasil""
+  
+  mostrar(2022, 1500)
+
+</script>

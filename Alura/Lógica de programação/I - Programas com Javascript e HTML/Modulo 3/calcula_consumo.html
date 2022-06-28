@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<h3> Álcool ou Gasolina? </h3>
+
+<script>
+/* 
+Problema: Seu carro tem um tanque de 40 litros. Com gasolina e usando todo o tanque você fez um caminhoComGasolina de 480 quilômetros. Qual é o consumoDeGasolina? Para calculá-lo, divida a distância percorrida pela quantidade de litros gastos. Imprima o valor utilizando document.write. Organize as contas em variáveis.
+
+Com álcool, um tanque de 40 litros fez um caminhoComAlcool de 300 quilômetros. Qual é o consumoDeAlcool?
+
+*/
+
+
+      //definindo os valores iniciais 
+      var tanque = 40
+      var caminho_percorrido = 480
+      var caminho_percorrido_alcool = 300
+
+      //calculo de consumo
+      var consumo_gasolina =  caminho_percorrido / tanque
+      var consumo_alcool = caminho_percorrido_alcool / tanque
+
+
+      //exibição na tela
+      document.write(`O consumo usando a Gasolina foi de ${consumo_gasolina} Km/L <br>`)
+      document.write(`O consumo usando Álcool foi de ${consumo_alcool} Km/L`)
+
+
+</script>

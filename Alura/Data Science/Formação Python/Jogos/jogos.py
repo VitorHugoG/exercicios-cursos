@@ -9,7 +9,8 @@ print(
 """
 (1) Jogo da Forca
 (2) Jogo de Adivinhação
-""")
+"""
+)
 
 escolha_usuario = int(input('digite sua escolha: '))
 
