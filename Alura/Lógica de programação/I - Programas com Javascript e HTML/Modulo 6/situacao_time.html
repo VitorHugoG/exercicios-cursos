@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+
+<script>
+    //calculando a situação do time
+
+    function pular_linha(){
+
+      document.write('<br>')
+
+    }
+
+    function mostrar(texto=String){
+      
+      document.write(texto)
+
+      pular_linha()
+
+    }
+
+    var vitorias = parseInt(prompt('digite o total de vitórias: '))
+    var empates = parseInt(prompt('digite o total de empates que tiveram: '))
+
+    var pontos = (vitorias * 3) + empates 
+    
+    mostrar('seu total de pontuação foi: '+ pontos)
+
+    if(pontos > 28){
+      mostrar('seu time foi melhor que o ano passado!')
+    }
+    if(pontos < 28){
+      mostrar('seu time foi pior que o ano passado!')
+    }
+    if(pontos == 28){
+      mostrar('o time se manteve igualmente em pontuação')
+    }
+
+
+
+</script>
