@@ -3,3 +3,4 @@
 var myFirstName = "Vitor Hugo";
 var myLastName = "Gumercindo da Silva";
 
+console.log(myFirstName)
