@@ -1,4 +1,5 @@
 import random
+import os
 
 def mensagem_apresentacao():
 
@@ -7,10 +8,13 @@ def mensagem_apresentacao():
     print("=" * 30)
 
 def escolhendo_palavra():
+# Pega o caminho da pasta onde o script atual está salvo
+    pasta_do_script = os.path.dirname(__file__)
+    caminho_completo = os.path.join(pasta_do_script, 'teste.txt')
 
-    with open('teste.txt', 'r') as doc_frutas:
+    with open(caminho_completo, 'r') as doc_frutas:
         frutas = doc_frutas.read()
-
+    
     frutas = frutas.strip().split()
 
     fruta = random.choice(frutas)
